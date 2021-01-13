@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Jacob Fromm | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'jacob fromm',
+  subtitle: 'full stack software engineer',
+  cta: 'know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'Sherm-26.jpg',
+  paragraphOne: "Hi! I'm a full stack web developer experienced in Ruby on Rails and JavaScript-based programming, passionate about increasing quality of life through accessible software.",
+  paragraphTwo: "With a background in production (film / TV / event), I posess strong skills in logistics and interpersonal communication that help drive productivity and morale in high-pressure environments.",
+  paragraphThree: "In past lives, I've been an ESL teacher, a professional photographer, and--for the past five years—a full-time standup comedian. (Under no circumstances will I tell you a joke.)",
+  resume: '../src/images/FrommResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
