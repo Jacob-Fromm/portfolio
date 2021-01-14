@@ -9,7 +9,7 @@ import { githubButtons } from '../../mock/data';
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
-  const { isEnabled } = githubButtons;
+  const { isEnabled } = false;
 
   return (
     <footer className="footer navbar-static-bottom">

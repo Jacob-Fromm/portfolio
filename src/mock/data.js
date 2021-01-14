@@ -31,7 +31,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'pickflix-pic.jpg',
     title: 'PickFlix',
-    info: '',
+    info: 'React / Rails app that connects users who want to watch the same Netflix films via Tinder-based swipe functionality',
     info2: '',
     url: '',
     frontend: 'https://github.com/Jacob-Fromm/pickflix-frontend', // if no repo, the button will not show up
@@ -41,7 +41,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'we-care-screenshot.jpg',
     title: 'WeCare',
-    info: '',
+    info: 'JavaScript / Rails app that tracks users’ moods and self-care activities and provides critical mental health resources',
     info2: '',
     url: '',
     frontend: 'https://github.com/Jacob-Fromm/we_care_frontend', // if no repo, the button will not show up
@@ -51,7 +51,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'literally-just-vibing-screenshot.jpg',
     title: 'Literally Just Vibing',
-    info: '',
+    info: "CLI app that utilizes Spotify's Web API to create playlists based on moods. We interpreted Spotify's track data and executed methods to create mood-based playlists with 20 unique songs. Users are able to make multiple playlists based on a list of four moods, refresh a playlist if they dislike what the app creates for them, and save playlists using unique names. Users are also able to delete playlists from their library. The app saves playlists for later access.",
     info2: '',
     url: '',
     repo: 'https://github.com/gabrielhicks/literallyjustvibing', // if no repo, the button will not show up
@@ -62,7 +62,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'jacobfromm@gmail.com',
 };
 
 // FOOTER DATA
@@ -71,22 +71,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/jacob_fromm',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jacob-fromm/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Jacob-Fromm/',
     },
   ],
 };
