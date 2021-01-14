@@ -1,10 +1,12 @@
-// import React from "react"
-// import resume from "./images/FrommResume.pdf"
+import React from "react"
+import resume from "../../public/FrommResume.pdf"
 
 
 
-// const Resume = () => {
-//     return <a href={resume} target="_blank"></a>
-// }
+const Resume = () => {
+    return (
+      <a href={resume}>resume link</a> 
+    )
+}
 
-// export default Resume
+export default Resume

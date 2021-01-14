@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, ResponsiveEmbed } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, repo, frontend, backend, img, id } = project;
 
             return (
               <Row key={id}>
@@ -65,7 +65,29 @@ const Projects = () => {
                           className="cta-btn cta-btn--projects"
                           href={repo}
                         >
-                          Source Code
+                          Github
+                        </a>
+                      )}
+                      {/* <div className="divider"></div> */}
+                      {frontend && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--projects"
+                          href={frontend}
+                        >
+                          Frontend
+                        </a>
+                      )}
+                      <div className="divider"></div>
+                      {backend && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--projects"
+                          href={backend}
+                        >
+                          Backend
                         </a>
                       )}
                     </div>

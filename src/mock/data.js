@@ -1,5 +1,6 @@
 import { nanoid } from 'nanoid';
 
+
 // HEAD DATA
 export const headData = {
   title: 'Jacob Fromm | Developer', // e.g: 'Name | Developer'
@@ -21,37 +22,39 @@ export const aboutData = {
   paragraphOne: "Hi! I'm a full stack web developer experienced in Ruby on Rails and JavaScript-based programming, passionate about increasing quality of life through accessible software.",
   paragraphTwo: "With a background in production (film / TV / event), I posess strong skills in logistics and interpersonal communication that help drive productivity and morale in high-pressure environments.",
   paragraphThree: "In past lives, I've been an ESL teacher, a professional photographer, and--for the past five years—a full-time standup comedian. (Under no circumstances will I tell you a joke.)",
-  resume: 'localhost:8000/FrommResume.pdf', // if no resume, the button will not show up
+  resume: 'http://localhost:8000/static/FrommResume-d76a01d2b26bfdd52cf7e1405b091a08.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'pickflix-pic.jpg',
+    title: 'PickFlix',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    frontend: 'https://github.com/Jacob-Fromm/pickflix-frontend', // if no repo, the button will not show up
+    backend: "https://github.com/Jacob-Fromm/pickflix_backend"
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'we-care-screenshot.jpg',
+    title: 'WeCare',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    frontend: 'https://github.com/Jacob-Fromm/we_care_frontend', // if no repo, the button will not show up
+    backend: "https://github.com/Jacob-Fromm/we_care_backend"
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'literally-just-vibing-screenshot.jpg',
+    title: 'Literally Just Vibing',
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/gabrielhicks/literallyjustvibing', // if no repo, the button will not show up
   },
 ];
 
