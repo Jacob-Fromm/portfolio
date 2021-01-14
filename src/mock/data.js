@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "Hi! I'm a full stack web developer experienced in Ruby on Rails and JavaScript-based programming, passionate about increasing quality of life through accessible software.",
   paragraphTwo: "With a background in production (film / TV / event), I posess strong skills in logistics and interpersonal communication that help drive productivity and morale in high-pressure environments.",
   paragraphThree: "In past lives, I've been an ESL teacher, a professional photographer, and--for the past five years—a full-time standup comedian. (Under no circumstances will I tell you a joke.)",
-  resume: '../src/images/FrommResume.pdf', // if no resume, the button will not show up
+  resume: 'localhost:8000/FrommResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
