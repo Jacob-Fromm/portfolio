@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import { urlAlphabet } from 'nanoid';
 import FrommResume from '../../assets/FrommResume.pdf'
 
 const About = () => {
@@ -23,11 +22,12 @@ const About = () => {
       setIsDesktop(false);
     }
   }, []);
-  console.log(FrommResume)
+
   return (
+    <>
     <section id="about">
       <Container>
-        <Title title="Turtle Soup" />
+        <Title title="About Me" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -66,7 +66,9 @@ const About = () => {
         </Row>
       </Container>
     </section>
+    </>
   );
 };
 
 export default About;
+
