@@ -23,6 +23,7 @@ const About = () => {
       setIsDesktop(false);
     }
   }, []);
+  console.log(FrommResume)
   return (
     <section id="about">
       <Container>
