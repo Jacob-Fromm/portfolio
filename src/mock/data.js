@@ -1,4 +1,15 @@
 import { nanoid } from 'nanoid';
+// import FrommResume from "../assets/FrommResume"
+// const resumeFile = useStaticQuery(graphQl`
+//       {
+//         pdf: file(name: { eq: "FrommResume" })   {
+//           name
+//           extension
+//           publicURL
+//         }
+//       }
+//     `)
+
 
 
 // HEAD DATA
@@ -22,7 +33,7 @@ export const aboutData = {
   paragraphOne: "Hi! I'm a full stack web developer experienced in Ruby on Rails and JavaScript-based programming, passionate about increasing quality of life through accessible software.",
   paragraphTwo: "With a background in production (film / TV / event), I posess strong skills in logistics and interpersonal communication that help drive productivity and morale in high-pressure environments.",
   paragraphThree: "In past lives, I've been an ESL teacher, a professional photographer, and--for the past five years—a full-time standup comedian. (Under no circumstances will I tell you a joke.)",
-  resume: 'http://localhost:8000/static/FrommResume-d76a01d2b26bfdd52cf7e1405b091a08.pdf', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -82,6 +93,11 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/Jacob-Fromm/',
+    },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://jacobfromm.medium.com/',
     },
   ],
 };
