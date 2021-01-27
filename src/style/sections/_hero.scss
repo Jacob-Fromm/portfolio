@@ -48,6 +48,7 @@
 
   .hero-cta {
     display: flex;
+    flex-direction: row;
 
     @include respond(tab-port) {
       justify-content: center;
@@ -62,3 +63,10 @@
     }
   }
 }
+// @media only screen and (max-device-width: 768px) {
+// span {
+//   display: block;
+// }  
+// }
+
+
