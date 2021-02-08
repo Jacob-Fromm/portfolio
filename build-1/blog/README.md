@@ -12,7 +12,7 @@
 [![Language][language-shield]][language-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ca134944-33b3-41ac-8d12-048fc8c20637/deploy-status)](https://app.netlify.com/sites/gatsby-starter-grayscale-promo/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ca134944-33b3-41ac-8d12-048fc8c20637/deploy-status)](https://app.netlify.com/sites/portfolio/deploys)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -33,7 +33,7 @@
     -->
     <br />
     <br />
-    <a href="https://gatsby-starter-grayscale-promo.netlify.com/">View Demo</a>
+    <a href="https://portfolio.netlify.com/">View Demo</a>
     ·
     <a href="https://github.com/jakeFromm/grayscale-promo-gatsbyjs-starter/issues">Report Bug</a>
     ·
@@ -87,7 +87,7 @@ You should have [nodejs](https://nodesource.com/blog/installing-node-js-tutorial
 
 * Clone the repository into your local folder
 ```sh
-gatsby new local-folder jakeFromm/gatsby-starter-grayscale-promo
+gatsby new local-folder jakeFromm/portfolio
 ```
 * Install dependences
 ```sh
@@ -101,7 +101,7 @@ yarn start;
 
 ### Deployment
 
-* Do project-wide replacement of `jakeFromm` and `gatsby-starter-grayscale-promo` with your own GitHub username and repo name.
+* Do project-wide replacement of `jakeFromm` and `portfolio` with your own GitHub username and repo name.
 * Setup [NetlifyCMS account](https://www.netlifycms.org/) and integrate it with your GitHub repo.
 * Commit to the repo, see the changes online in a couple of minutes!
 * To edit the content, go to the `/admin` section of your website.

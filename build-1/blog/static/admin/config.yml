@@ -1,6 +1,6 @@
 backend:
     name: github
-    repo: jakeFromm/grayscale-promo-gatsbyjs-starter
+    repo: jakeFromm/portfolio
 media_folder: static/assets
 public_folder: assets
 media_folder_relative: true
