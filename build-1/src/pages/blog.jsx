@@ -2,13 +2,10 @@ import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../components/Title/Title';
-// import AboutImg from '../components/Image/AboutImg';
-// import PortfolioContext from '../context/context';
+
 import FrommResume from '../assets/FrommResume.pdf';
 
 const Blog = () => {
-  // const { blog } = useContext(PortfolioContext);
-  // const { img, paragraphOne, paragraphTwo, paragraphThree } = blog;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -26,7 +23,7 @@ const Blog = () => {
   return (
     <>
       <section id="blog">
-        <Container>
+        {/* <Container>
           <Title title="Blog" />
           <Row className="about-wrapper">
             <Col md={6} sm={12}>
@@ -45,7 +42,7 @@ const Blog = () => {
               </Fade>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </section>
     </>
   );
