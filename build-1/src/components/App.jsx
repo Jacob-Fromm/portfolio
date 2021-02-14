@@ -9,6 +9,10 @@ import { PortfolioProvider } from '../context/context';
 
 import { heroData, aboutData, projectsData, contactData, footerData } from '../mock/data';
 
+import getArticle from "../utils/dev-api"
+
+
+const articles = getArticle
 function App() {
   const [hero, setHero] = useState({});
   const [about, setAbout] = useState({});
@@ -23,6 +27,8 @@ function App() {
     setContact({ ...contactData });
     setFooter({ ...footerData });
   }, []);
+
+  console.log(articles)
 
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>

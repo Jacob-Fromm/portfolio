@@ -94,7 +94,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'medium',
-      url: 'https://jacobfromm.medium.com/',
+      url: 'https://dev.to/jacobfromm',
     },
   ],
 };
