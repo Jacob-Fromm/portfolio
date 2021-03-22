@@ -5,7 +5,6 @@ import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
 
 import { githubButtons } from '../../mock/data';
-
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
   const { networks } = footer;
