@@ -15,7 +15,7 @@ export const heroData = {
   bio: 'about',
   projects: 'projects',
   github: 'github',
-  blog: 'blog',
+  blog: 'https://dev.to/jacobfromm',
 };
 
 // ABOUT DATA
@@ -93,7 +93,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'medium',
+      name: 'dev.to',
       url: 'https://dev.to/jacobfromm',
     },
   ],
