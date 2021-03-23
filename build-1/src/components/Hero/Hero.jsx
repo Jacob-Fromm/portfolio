@@ -49,7 +49,7 @@ const Header = () => {
               <a href={hero.blog}>blog</a>
             </span>
             <span className="cta-btn cta-btn--hero">
-              <a href="http://www.github.com/jacob-fromm">github</a>
+              <a href={hero.github}>github</a>
             </span>
           </p>
         </Fade>

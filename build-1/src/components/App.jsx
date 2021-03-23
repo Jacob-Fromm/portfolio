@@ -28,8 +28,6 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
-  console.log(articles)
-
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
