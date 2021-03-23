@@ -20,7 +20,7 @@ const Header = () => {
       setIsDesktop(false);
     }
   }, []);
-
+console.log ("hero blog data ", hero.blog)
   return (
     <section id="hero" className="jumbotron">
       <Container>
@@ -45,10 +45,10 @@ const Header = () => {
               </Link>
             </span>
             <span className="cta-btn cta-btn--hero">
-              <a href="http://www.jacobfromm.medium.com">blog</a>
+              <a href={hero.blog}>blog</a>
             </span>
             <span className="cta-btn cta-btn--hero">
-              <a href="http://www.github.com/jacob-fromm">github</a>
+              <a href={hero.github}>github</a>
             </span>
           </p>
         </Fade>

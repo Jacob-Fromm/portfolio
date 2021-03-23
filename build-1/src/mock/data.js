@@ -14,8 +14,8 @@ export const heroData = {
   subtitle: 'full stack software engineer',
   bio: 'about',
   projects: 'projects',
-  github: 'github',
-  blog: 'blog',
+  github: 'https://github.com/Jacob-Fromm/',
+  blog: 'https://dev.to/jacobfromm',
 };
 
 // ABOUT DATA
@@ -93,7 +93,7 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'medium',
+      name: 'dev.to',
       url: 'https://dev.to/jacobfromm',
     },
   ],
