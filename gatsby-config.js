@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `personal website of nice Jewish boy Jacob Fromm`,
+        short_name: `He's got people skills, too!`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
