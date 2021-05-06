@@ -23,7 +23,9 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  margin-right: 1.5vw;
+  width: 8em;
+  text-align: center;
+  margin: 0.5em 0.5em 0.5em 0em;
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

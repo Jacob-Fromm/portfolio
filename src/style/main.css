@@ -12,7 +12,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-@import url(/Users/jsfromm/code/portfolio-v1/portflio/src/style/vendor/css/font-awesome.min.css);
+@import url(/Users/jsfromm/code/portfolio-v1/portfolio/src/style/vendor/css/font-awesome.min.css);
 .mb-8 {
   margin-bottom: 8rem !important;
 }
@@ -110,7 +110,7 @@ a:hover {
 
 /* Call to Action Button */
 .cta-btn {
-  display: flex;
+  display: inline-block;
   position: relative;
   padding: 0.8rem 2rem;
   font-weight: bold;
@@ -135,7 +135,9 @@ a:hover {
 
 /* Hero Style */
 .cta-btn--hero {
-  margin-right: 1.5vw;
+  width: 8em;
+  text-align: center;
+  margin: 0.5em 0.5em 0.5em 0em;
   background-image: linear-gradient(135deg, #fc00ff 0%, #00dbde 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -181,6 +183,9 @@ a:hover {
 }
 
 .cta-btn--projects {
+  width: 9em;
+  text-align: center;
+  margin: 0.5em;
   color: white;
   border-width: 2px;
   border-style: solid;
@@ -567,10 +572,8 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 @media (max-width: 56.25em) {
@@ -606,7 +609,7 @@ section {
 }
 
 #projects .divider {
-  width: 10px;
+  width: 0px;
   height: auto;
   display: inline-block;
 }
