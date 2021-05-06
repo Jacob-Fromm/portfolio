@@ -12,7 +12,7 @@ ORDER: Base + Typography > Generar Layout + Grid > Page Layout > Components
 
 */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap");
-@import url(/Users/jsfromm/code/portfolio-v1/build-1/src/style/vendor/css/font-awesome.min.css);
+@import url(/Users/jsfromm/code/portfolio-v1/portflio/src/style/vendor/css/font-awesome.min.css);
 .mb-8 {
   margin-bottom: 8rem !important;
 }
