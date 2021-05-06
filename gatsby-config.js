@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#02aab0`,
         display: `standalone`,
-        icon: 'portfolio/src/images/Sherm-26.jpg',
+        icon: `${__dirname}/src/images/Sherm-26.jpg`,
       },
     },
   ],
