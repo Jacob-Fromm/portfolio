@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 import { useStaticQuery, graphql } from 'gatsby';
 
-export default () => {
+export default function Index() {
   const { title, lang, description } = headData;
   return (
     <>

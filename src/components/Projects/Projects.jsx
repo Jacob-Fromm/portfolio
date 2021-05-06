@@ -79,6 +79,16 @@ const Projects = () => {
                           Frontend
                         </a>
                       )}
+                      {url && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--projects"
+                          href={url}
+                        >
+                          Live Site
+                        </a>
+                      )}
                       <div className="divider"></div>
                       {backend && (
                         <a

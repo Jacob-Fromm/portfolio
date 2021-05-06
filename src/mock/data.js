@@ -15,7 +15,7 @@ export const heroData = {
   bio: 'about',
   projects: 'projects',
   github: 'https://github.com/Jacob-Fromm/',
-  blog: 'https://dev.to/jacobfromm',
+  linkedin: 'https://linkedin.com/in/jacob-fromm',
 };
 
 // ABOUT DATA
@@ -32,6 +32,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'david-odyssey-image.jpg',
+    title: 'David Odyssey',
+    info:
+      'Gatsby frontend / Sanity.io backend developed for writer, editor, performer, diviner, and cosmic being David Odyssey. Custom design.',
+    info2: '',
+    url: 'https://davidodyssey.com',
+    frontend: 'https://github.com/Jacob-Fromm/david-odyssey-burger', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'pickflix-pic.jpg',
@@ -54,16 +64,16 @@ export const projectsData = [
     frontend: 'https://github.com/Jacob-Fromm/we_care_frontend', // if no repo, the button will not show up
     backend: 'https://github.com/Jacob-Fromm/we_care_backend',
   },
-  {
-    id: nanoid(),
-    img: 'literally-just-vibing-screenshot.jpg',
-    title: 'Literally Just Vibing',
-    info:
-      "CLI app that utilizes Spotify's Web API to create playlists based on moods. We interpreted Spotify's track data and executed methods to create mood-based playlists with 20 unique songs. Users are able to make multiple playlists based on a list of four moods, refresh a playlist if they dislike what the app creates for them, and save playlists using unique names. Users are also able to delete playlists from their library. The app saves playlists for later access.",
-    info2: '',
-    url: '',
-    repo: 'https://github.com/gabrielhicks/literallyjustvibing', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'literally-just-vibing-screenshot.jpg',
+  //   title: 'Literally Just Vibing',
+  //   info:
+  //     "CLI app that utilizes Spotify's Web API to create playlists based on moods. We interpreted Spotify's track data and executed methods to create mood-based playlists with 20 unique songs. Users are able to make multiple playlists based on a list of four moods, refresh a playlist if they dislike what the app creates for them, and save playlists using unique names. Users are also able to delete playlists from their library. The app saves playlists for later access.",
+  //   info2: '',
+  //   url: '',
+  //   repo: 'https://github.com/gabrielhicks/literallyjustvibing', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA

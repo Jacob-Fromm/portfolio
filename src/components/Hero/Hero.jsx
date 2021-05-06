@@ -45,7 +45,7 @@ console.log ("hero blog data ", hero.blog)
               </Link>
             </span>
             <span className="cta-btn cta-btn--hero">
-              <a href={hero.blog}>blog</a>
+              <a href={hero.linkedin}>linkedin</a>
             </span>
             <span className="cta-btn cta-btn--hero">
               <a href={hero.github}>github</a>
