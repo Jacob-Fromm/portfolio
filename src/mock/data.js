@@ -40,7 +40,8 @@ export const projectsData = [
       'Gatsby frontend / Sanity.io backend developed for writer, editor, performer, diviner, and cosmic being David Odyssey. Custom design.',
     info2: '',
     url: 'https://davidodyssey.com',
-    frontend: 'https://github.com/Jacob-Fromm/david-odyssey-burger', // if no repo, the button will not show up
+    // frontend: 'https://github.com/Jacob-Fromm/david-odyssey-burger', // if no repo, the button will not show up
+    code: 'https://github.com/Jacob-Fromm/david-odyssey-burger', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

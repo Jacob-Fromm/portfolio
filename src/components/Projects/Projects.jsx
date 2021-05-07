@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map(project => {
-            const { title, info, info2, url, repo, frontend, backend, img, id } = project;
+            const { title, info, info2, url, repo, frontend, backend, img, id, code } = project;
 
             return (
               <Row key={id}>
@@ -87,6 +87,16 @@ const Projects = () => {
                           href={url}
                         >
                           Live Site
+                        </a>
+                      )}
+                      {code && (
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--projects"
+                          href={code}
+                        >
+                          Code
                         </a>
                       )}
                       <div className="divider"></div>
